@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campionati Calcio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Scegli un elemento:</h1>
+    <div class="single-row">
+        <div>
+            <label for="selectCampionato">Seleziona un Campionato:</label>        
+            <select id="selectCampionato" class="selectElement">
+                <option value="">Scegli Campionato</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="selectEdizione">Seleziona una Edizione:</label>
+            <select id="selectEdizione" class="selectElement">
+            </select>
+        </div>
+    </div>
+
+    <div id="single-row">
+        <button id="classifica_btn" class="mostraButton">Mostra Classifica Campionato</button>
+        <button id="incontri_btn" class="mostraButton">Mostra Lista Incontri Campionato</button>
+    </div>
+
+    <div id="outputTable"></div>
+</body>
+</html>
